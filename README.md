@@ -1,5 +1,25 @@
 # 🏗 Scaffold-ETH 2
 
+## Social Login Integration with Dynamic
+We've enhanced the application by integrating social login functionality through Dynamic. The implementation follows the guidelines provided in the Dynamic documentation:
+
+[Dynamic Documentation](https://docs.dynamic.xyz/guides/frameworks/wagmi) 
+
+Changes Overview
+The modifications are primarily located in the following file:
+
+[ScaffoldEthAppWithProviders.tsx](https://github.com/JulioMCruz/Scaffold-Eth-2-Dynamic/blob/f35e95fab3fa7ca0f46e226de2815edd7001d9a1/packages/nextjs/components/ScaffoldEthAppWithProviders.tsx#L96)
+
+Here, you can review the specific changes made to incorporate the social login feature.
+
+Network and Contract Information:
+* Network Used: Sepolia
+* Smart Contract Address: [0xdA56D9520dc709C1Ca966fd8b054F9BA3475F4a2](https://sepolia.etherscan.io/address/0xdA56D9520dc709C1Ca966fd8b054F9BA3475F4a2)
+
+The smart contract has been deployed to the Sepolia network, and the application's contract and site configurations have been updated accordingly.
+
+# Original Readme:
+
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
