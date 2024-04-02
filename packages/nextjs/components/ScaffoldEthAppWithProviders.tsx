@@ -42,19 +42,6 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
 // Setting up list of evmNetworks
 const evmNetworks: EvmNetwork[] = [
   {
-    networkId: 31337,
-    name: "Localhost",
-    chainId: 31337,
-    rpcUrls: ["http://127.0.0.1:8545"],
-    blockExplorerUrls: ["https://sepolia.etherscan.io/"],
-    nativeCurrency: {
-      name: "Ethereum",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    iconUrls: ["https://ethereum.org/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png"],
-  },
-  {
     networkId: 11155111,
     name: "Sepolia",
     chainId: 11155111,
@@ -67,19 +54,32 @@ const evmNetworks: EvmNetwork[] = [
     },
     iconUrls: ["https://ethereum.org/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png"],
   },
-  {
-    networkId: 1,
-    name: "Ethereum Mainnet",
-    chainId: 1,
-    rpcUrls: ["https://mainnet.infura.io/v3/"],
-    blockExplorerUrls: ["https://etherscan.io/"],
-    nativeCurrency: {
-      name: "Ethereum",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    iconUrls: ["https://ethereum.org/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png"],
-  }
+  // {
+  //   networkId: 31337,
+  //   name: "Localhost",
+  //   chainId: 31337,
+  //   rpcUrls: ["http://127.0.0.1:8545"],
+  //   blockExplorerUrls: ["https://sepolia.etherscan.io/"],
+  //   nativeCurrency: {
+  //     name: "Ethereum",
+  //     symbol: "ETH",
+  //     decimals: 18,
+  //   },
+  //   iconUrls: ["https://ethereum.org/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png"],
+  // },
+  // {
+  //   networkId: 1,
+  //   name: "Ethereum Mainnet",
+  //   chainId: 1,
+  //   rpcUrls: ["https://mainnet.infura.io/v3/"],
+  //   blockExplorerUrls: ["https://etherscan.io/"],
+  //   nativeCurrency: {
+  //     name: "Ethereum",
+  //     symbol: "ETH",
+  //     decimals: 18,
+  //   },
+  //   iconUrls: ["https://ethereum.org/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png"],
+  // }
 ];
 
 export const ScaffoldEthAppWithProviders = ({ children }: { children: React.ReactNode }) => {
